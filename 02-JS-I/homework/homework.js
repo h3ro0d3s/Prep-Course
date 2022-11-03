@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'HOla';
+const nuevaString = 'Hoola';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 5;
@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 15;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -28,50 +28,55 @@ const nuevoModulo = 21 % 5 === 15;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  
-  
+  var devolverString = str
+  return devolverString
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:  
-  x = 6;
-  y = 98
-  var resultado
-  resultado = (x + y)
+var resultado = (x + y);
 return resultado  
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
+ var resultado1 = (x - y)
+  return resultado1
   
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  var resultadomultiplicacion = (x * y)
+return resultadomultiplicacion
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  var divide = (x / y)
+return divide
 }
+
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  sonIguales = (x==y);
+ return sonIguales
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
+  tienenMismaLongitud = (str1 == str2)
+  return tienenMismaLongitud
   
 }
 
